@@ -1,0 +1,55 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+
+/* css color vars */
+:root {
+	--text-color: #262626;
+	--primary-color: #ddd;
+	--secondary-color: #999;
+	--tertiary-color: #ccc;
+	--accent-color: #333393;
+}
+
+* {
+	color: var(--text-color);
+}
+
+a {
+	color: blue;
+}
+
+p,
+li {
+	font-family: 'Geneva', sans-serif;
+	font-size: 2rem;
+	-webkit-font-smoothing: none;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	list-style: square;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	padding-inline-start: 40px;
+}
+
+h1 {
+	font-family: 'Apple Garamond', serif;
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-family: 'Charcoal', sans-serif;
+	font-size: 1.2rem;
+}
+
+/* Hide some elements on mobile */
+.hide-mobile {
+	display: block;
+}
+
+@media (max-width: 768px) {
+	.hide-mobile {
+		display: none;
+	}
+}
