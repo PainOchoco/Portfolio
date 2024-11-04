@@ -1,8 +1,8 @@
 <h1>Engineering course</h1>
 
 <p>
-	I am currently in the first year of my engineering curriculum in <strong>Computer Science</strong
-	>, here's a brief overview of the courses I have taken.
+	I am currently in the first year of my engineering curriculum in Computer Science, here's a brief
+	overview of the courses I have taken.
 </p>
 
 <br />

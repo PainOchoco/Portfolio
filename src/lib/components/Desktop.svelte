@@ -19,16 +19,39 @@
 
 	let gridContainer: HTMLDivElement;
 	let columns = $state(1);
-	let rows = $state(1);
 	let placeholders = $state(0);
 
 	const updateGrid = () => {
 		columns = Math.floor((gridContainer.clientWidth - 2 * gridPadding) / gridElementSize);
-		rows = Math.floor((gridContainer.clientHeight - 2 * gridPadding) / gridElementSize);
-		placeholders = columns * rows - icons.length;
+		placeholders = columns - icons.length;
 	};
 
-	$effect(updateGrid);
+	$effect(() => {
+		updateGrid();
+
+		let welcomeIcon = icons.filter((icon) => icon.name === 'Welcome')[0];
+		let matteoIcon = icons.filter((icon) => icon.name === 'matteo.png')[0];
+
+		let windowWidth = window.innerWidth;
+		let windowHeight = window.innerHeight;
+
+		setTimeout(() => {
+			// Open welcome and matteo.png
+			openApp(
+				new MouseEvent('click', { clientX: windowWidth * (1 / 6), clientY: windowHeight / 4 }),
+				welcomeIcon.name,
+				welcomeIcon.icon,
+				welcomeIcon.content
+			);
+
+			openApp(
+				new MouseEvent('click', { clientX: windowWidth * (3 / 6), clientY: windowHeight / 4 }),
+				matteoIcon.name,
+				matteoIcon.icon,
+				matteoIcon.content
+			);
+		}, 500);
+	});
 
 	let highestZIndex = 1;
 
@@ -72,7 +95,7 @@
 			<DesktopIcon {name} {icon} {content} onClickOrDblClick={openApp} />
 		{/each}
 
-		<!-- Empty placeholders -->
+		<!-- Placeholders -->
 		{#each Array(placeholders) as _}
 			<div class="placeholder"></div>
 		{/each}

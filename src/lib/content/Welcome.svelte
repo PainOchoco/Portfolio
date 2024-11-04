@@ -1,8 +1,12 @@
+<script>
+	import d from '$lib/data';
+</script>
+
 <h1>Welcome</h1>
 
 <p>
-	To my portolio! I am a student of <a href="https://www.enseeiht.fr/">ENSEEIHT</a>, a top-ranking
-	engineering graduate school based in Toulouse.
+	To my portolio! I am a student at <a href="https://www.enseeiht.fr/">ENSEEIHT</a>, a top-ranking
+	engineering school based in Toulouse.
 </p>
 
 <br />
@@ -24,4 +28,18 @@
 	a better experience, I recommend using a desktop computer and enable full screen.
 </p>
 
-<!-- TODO: github link, copyright license etc -->
+<br />
+
+<p>
+	You can find the source code of this portfolio on my Github repository <a
+		href={d.githubRepoLink}
+		target="_blank">here</a
+	>.
+</p>
+
+<br />
+
+<p>
+	Copyleft © 2024 Matteo Planchet -
+	<a href="{d.githubRepoLink}/blob/main/LICENSE"> GPL-3.0 license</a>
+</p>
