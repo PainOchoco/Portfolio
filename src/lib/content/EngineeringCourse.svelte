@@ -9,7 +9,7 @@
 
 <h2>Semester 1</h2>
 <ul>
-	<li>Soft & Human Skills (Sport, Careers & Management, English, Spanish)</li>
+	<li>Soft & Human Skills (Climbing, Careers & Management, English, Spanish)</li>
 	<li>Integration and Applications - Probability</li>
 	<li>Imperative Programming</li>
 	<li>Numerical Analysis and Statistics</li>
@@ -21,6 +21,7 @@
 
 <h2>Semester 2</h2>
 <ul>
+	<li>Soft & Human Skills (Badminton, Careers & Management, English, Spanish)</li>
 	<li>Telecommunications and Signal Processing</li>
 	<li>Networks</li>
 	<li>Scientific Computing and Machine Learning</li>

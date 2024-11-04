@@ -6,7 +6,7 @@
 
 <p>
 	I'm a trained facilitator of the <a href="https://climatefresk.org/">Climate Fresk</a> initiative where
-	I led climate awareness workshops in the University of Montpellier in september 2023 & 2024 as part
+	I led climate awareness workshops in the University of Montpellier in September 2023 and 2024 as part
 	of the "Rentree Climat" project.
 </p>
 

@@ -13,7 +13,7 @@
 	</li>
 	<li>
 		<a href={d.githubLink} target="_blank">My GitHub</a>
-		<p>Many open source project I made or contributed to can be found on my profile.</p>
+		<p>Many open source projects I made or contributed to can be found on my profile.</p>
 	</li>
 	<li>
 		<a href="mailto:{d.mail}" target="_blank">Contact me!</a>

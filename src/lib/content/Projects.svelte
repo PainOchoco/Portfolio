@@ -8,7 +8,7 @@
 
 <p>
 	I was curious about satellites and wanted to know how many there were just above my head. This is
-	were I entered a rabbit hole of space debris, satellite tracking and orbital propagations.
+	where I entered a rabbit hole of space debris, satellite tracking and orbital propagations.
 </p>
 
 <br />
@@ -40,8 +40,8 @@
 <br />
 
 <p>
-	We have over 2000 unique players and an amazing and diverse community. This big project thaught me
-	a lot about project, team and community management. I set up with my team a lighter version of the
+	We have over 2000 unique players and an amazing and diverse community. This big project taught me
+	a lot about project, team and community management. My team and I set up a lighter version of the
 	SCRUM methodology to manage the project.
 </p>
 
