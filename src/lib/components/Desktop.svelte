@@ -55,10 +55,17 @@
 
 	let highestZIndex = 1;
 
+	const windowQueue: string[] = [];
+
 	const openApp = (event: MouseEvent, name: string, icon: string, content: any) => {
 		if (openedWindows.some((window) => window.name === name)) {
 			closeApp(name);
 		}
+		if (windowQueue.includes(name)) {
+			return;
+		}
+
+		windowQueue.push(name);
 
 		highestZIndex += 1;
 		// Timeout needed because if the window was already opened, the dragging position is not reset
@@ -71,6 +78,7 @@
 				icon,
 				content
 			});
+			windowQueue.shift();
 		}, 1);
 	};
 
